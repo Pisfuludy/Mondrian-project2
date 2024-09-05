@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project2</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            margin: 0%;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            height:748px ;
+            width: 748px;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 320px 198px 50px 120px ;
+            grid-template-rows: 412px 155px 100px 20px ;
+            background-color: #000;
+        }
+        .white{
+            background-color: #F0F1EC;
+        }
+        .white1{
+            background-color: #F0F1EC;
+            grid-column: span 3;
+        }
+        .red{
+            background-color:darkred ;
+            grid-row: span 3;
+        }
+        .white2{
+            background-color: #F0F1EC;
+            grid-area: 2/2/4/4;
+        }
+        .blue{
+            background-color: #004592;
+            border-bottom: 30px solid black;
+        }
+        .item{
+            background-color:#F0F1EC;
+            grid-row: span 2;
+        }
+        .white3{
+            background-color: #F0F1EC;
+        }
+        .item-white{
+            background-color: #F0F1EC;
+            grid-column: span 2;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="white"></div>
+    <div class="white1"></div>
+    <div class="red"></div>
+    <div class="white2"></div>
+    <div class="blue"></div>
+    <div class="item"></div>
+    <div class="item-white"></div>
+
+    </div>
+    
+</body>
+</html>
